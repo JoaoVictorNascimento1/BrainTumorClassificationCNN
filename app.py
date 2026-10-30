@@ -67,8 +67,9 @@ def preprocessar_imagem(imagem_pil):
 
 # Interface Streamlit
 st.set_page_config(page_title="DiagnosAI", layout="centered")
-st.title("DiagnosAI 🧠")
-st.write("Sistema de suporte à decisão clínica para classificação de tumores em MRI.")
+st.title("DiagnoseAI 🧠")
+st.write("Sistema de suporte à decisão clínica para classificação de tumores em MRI." \
+"Este projeto serve apenas para propósitos educacionais.")
 
 arquivo_upload = st.file_uploader("Faça o upload da ressonância magnética (JPG/PNG)", type=["jpg", "png", "jpeg"])
 
