@@ -66,7 +66,7 @@ def preprocessar_imagem(imagem_pil):
     return tensor_entrada, img_base_cam
 
 # Interface Streamlit
-st.set_page_config(page_title="DiagnosAI", layout="centered")
+st.set_page_config(page_title="DiagnoseAI", layout="centered")
 st.title("DiagnoseAI 🧠")
 st.write("Sistema de suporte à decisão clínica para classificação de tumores em MRI." \
 "Este projeto serve apenas para propósitos educacionais.")
